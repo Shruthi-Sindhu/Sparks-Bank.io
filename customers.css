@@ -1,0 +1,98 @@
+html{
+    font-size:100%
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-color:rgb(221, 242, 255);
+    
+}
+
+/* navbar css starts here  */
+nav{
+    position: relative;
+}
+.bg-light{
+    background-color:rgb(148, 146, 231);
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+}
+.navbar-brand{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #070794!important;
+}
+
+.nav-link{
+    color: #1d02bb!important;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.nav-link:hover{
+    background-color: rgba(214, 210, 248, 0.89)!important;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+    text-align:center;
+
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: rgb(5, 24, 109)!important;
+    color: rgb(255, 255, 255)!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.5s;
+}
+
+.btn-info:hover{
+    background-color: rgb(93, 91, 255)!important;
+}
+
+#a{
+    color: #1a04ac;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    position: relative;
+    text-align:start;
+    font-size: 20px;
+}
+.navbar-brand img{
+    height: 55px;
+    padding-left: 40px;
+}
+th{
+    background-color: rgb(205, 235, 245);
+    font-size:23px;
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    color:#160091;
+}
+tr{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    color:#0d0152;
+    font-size: 20px;   
+}
+table, td, th {
+    border: 1px solid black;
+}
+#transactionHistory{
+    position: relative;
+}
+footer{
+    height:relative;
+    color: rgb(18, 0, 95);
+    background-color: rgb(231, 255, 251);
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    position: relative;
+}
