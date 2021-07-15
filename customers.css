@@ -85,7 +85,7 @@ table, td, th {
     border: 1px solid black;
 }
 #transactionHistory{
-    position: relative;
+    position: fixed;
 }
 footer{
     height:relative;
